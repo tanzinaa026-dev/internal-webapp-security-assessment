@@ -6,8 +6,8 @@ Evaluate password strength and authentication security for the CMS.
 ## Steps
 - Prepared a small, realistic password list based on weak patterns.
 - Performed controlled password guessing using WPScan:
-  - `wpscan --url http://<target-ip> --usernames kwheel --passwords passwords.txt`
-- Successfully authenticated as the user `kwheel`.
+  - `wpscan --url http://<target-ip> --usernames Brian --passwords passwords.txt`
+- Successfully authenticated as the user `Brian`.
 
 ## Findings
 - Weak password policy in place.
